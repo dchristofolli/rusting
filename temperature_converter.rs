@@ -1,8 +1,7 @@
 use std::io;
 
 fn main(){
-    println!("Type 1 to convert from Fahrenheit to Celsius\n
-    Type 2 to convert from Celsius to Fahrenheit");
+    println!("Type 1 to convert from Fahrenheit to Celsius or 2 to convert from Celsius to Fahrenheit");
     let mut option = String::new();
     io::stdin()
     .read_line(&mut option)
